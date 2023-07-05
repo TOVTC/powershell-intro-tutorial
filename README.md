@@ -19,3 +19,9 @@
 ## Flow Control
 *   FlowControl.ps1
 *   Backup.ps1
+
+## Error Handling
+*   ErrorHandling.ps1
+*   Backup.ps1
+*   python-app
+    *   script.py
