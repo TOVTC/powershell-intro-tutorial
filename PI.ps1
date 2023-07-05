@@ -17,6 +17,7 @@ Write-Host "Here is `$PI and its value is $PI"
 # Expressions can also be written within double quotations
 Write-Host "An expression $($PI + 1)"
 
+
 # ---Scope---
 # Scope can be Global (to the system), Script (within a script file), or Local (current scope)
 # A script can target global scope by prepending the global keyword
@@ -24,5 +25,11 @@ Write-Host "An expression $($PI + 1)"
 
 # A variable defined directly in the console is global scope
 # Running this script file after entering "$test = 'hi'" in the console will allow $test to print
-
 $test
+
+# Items can be changed only in the created scope - you can only change an item in the scope in which it was created
+
+
+# ---Profiles---
+# A profile is a script that runs when PowerShell starts and can be used to customize an environment
+# PowerShell supports several profile files and they can be applied at various levels (see documentation)
